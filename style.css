@@ -75,7 +75,6 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: translateX(0%) !important;
 }
 .link {
   color: #ffffff;

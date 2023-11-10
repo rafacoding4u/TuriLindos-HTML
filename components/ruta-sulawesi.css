@@ -1,0 +1,52 @@
+.ruta-sulawesi-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.ruta-sulawesi-image {
+  object-fit: cover;
+}
+.ruta-sulawesi-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.ruta-sulawesi-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ruta-sulawesi-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ruta-sulawesi-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 1600px) {
+  .ruta-sulawesi-text {
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  .ruta-sulawesi-text1 {
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+}
+@media(max-width: 991px) {
+  .ruta-sulawesi-image {
+    width: 100%;
+  }
+}

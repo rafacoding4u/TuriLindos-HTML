@@ -30,6 +30,11 @@
     </style>
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
       data-tag="font"
     />
@@ -40,11 +45,40 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
     <!--This is the head section-->
     <!-- <style> ... </style> -->
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -52,7 +86,7 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container">
-        <section class="home-hero">
+        <section class="home-cabecera">
           <div class="home-main">
             <div class="home-video">
               <div class="home-tint">
@@ -71,20 +105,239 @@
               <header data-thq="thq-navbar" class="home-navbar">
                 <img
                   alt="logo"
-                  src="public/logo%20redondo%20turilindos-200h.jpg"
+                  src="public/Logo/logo%20redondo%20turilindos-200h.jpg"
                   loading="eager"
                   class="home-logo"
                 />
                 <span class="home-text">TuriLindos</span>
                 <div data-thq="thq-burger-menu" class="home-menu">
                   <div class="home-links">
-                    <a href="#features" class="home-link link">Features</a>
-                    <span class="home-text01 link">How it works</span>
-                    <span class="home-text02 link">Prices</span>
-                    <a href="#find" class="home-link01 link">Contact</a>
+                    <span class="home-text01 link">Features</span>
+                    <span class="home-text02 link">How it works</span>
+                    <span class="home-text03 link">Prices</span>
+                    <a href="#find" class="home-link link">Contact</a>
+                    <div
+                      data-thq="thq-dropdown"
+                      class="home-thq-dropdown list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        class="home-dropdown-toggle"
+                      >
+                        <span class="home-text04">Menu Item</span>
+                        <div
+                          data-thq="thq-dropdown-arrow"
+                          class="home-dropdown-arrow"
+                        >
+                          <svg viewBox="0 0 1024 1024" class="home-icon">
+                            <path d="M426 726v-428l214 214z"></path>
+                          </svg>
+                        </div>
+                        <div
+                          data-thq="thq-dropdown"
+                          class="home-thq-dropdown1 list-item"
+                        >
+                          <ul
+                            data-thq="thq-dropdown-list"
+                            class="home-dropdown-list"
+                          >
+                            <li
+                              data-thq="thq-dropdown"
+                              class="home-dropdown list-item"
+                            >
+                              <div
+                                data-thq="thq-dropdown-toggle"
+                                class="home-dropdown-toggle01"
+                              >
+                                <span class="home-text05">Sub-menu Item</span>
+                                <div
+                                  data-thq="thq-dropdown-arrow"
+                                  class="home-dropdown-arrow1"
+                                >
+                                  <svg
+                                    viewBox="0 0 1024 1024"
+                                    class="home-icon02"
+                                  >
+                                    <path d="M426 726v-428l214 214z"></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <ul
+                                data-thq="thq-dropdown-list"
+                                class="home-dropdown-list1"
+                              >
+                                <li
+                                  data-thq="thq-dropdown"
+                                  class="home-dropdown01 list-item"
+                                >
+                                  <div
+                                    data-thq="thq-dropdown-toggle"
+                                    class="home-dropdown-toggle02"
+                                  >
+                                    <span class="home-text06">
+                                      Sub-menu Item
+                                    </span>
+                                  </div>
+                                </li>
+                                <li
+                                  data-thq="thq-dropdown"
+                                  class="home-dropdown02 list-item"
+                                >
+                                  <div
+                                    data-thq="thq-dropdown-toggle"
+                                    class="home-dropdown-toggle03"
+                                  >
+                                    <span class="home-text07">
+                                      Sub-menu Item
+                                    </span>
+                                  </div>
+                                </li>
+                                <li
+                                  data-thq="thq-dropdown"
+                                  class="home-dropdown03 list-item"
+                                >
+                                  <div
+                                    data-thq="thq-dropdown-toggle"
+                                    class="home-dropdown-toggle04"
+                                  >
+                                    <span class="home-text08">
+                                      Sub-menu Item
+                                    </span>
+                                  </div>
+                                </li>
+                                <li
+                                  data-thq="thq-dropdown"
+                                  class="home-dropdown04 list-item"
+                                >
+                                  <div
+                                    data-thq="thq-dropdown-toggle"
+                                    class="home-dropdown-toggle05"
+                                  >
+                                    <span class="home-text09">
+                                      Sub-menu Item
+                                    </span>
+                                  </div>
+                                </li>
+                              </ul>
+                            </li>
+                            <li
+                              data-thq="thq-dropdown"
+                              class="home-dropdown05 list-item"
+                            >
+                              <div
+                                data-thq="thq-dropdown-toggle"
+                                class="home-dropdown-toggle06"
+                              >
+                                <span class="home-text10">Sub-menu Item</span>
+                              </div>
+                            </li>
+                            <li
+                              data-thq="thq-dropdown"
+                              class="home-dropdown06 list-item"
+                            >
+                              <div
+                                data-thq="thq-dropdown-toggle"
+                                class="home-dropdown-toggle07"
+                              >
+                                <span class="home-text11">Sub-menu Item</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <ul
+                        data-thq="thq-dropdown-list"
+                        class="home-dropdown-list2"
+                      >
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown07 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle08"
+                          >
+                            <span class="home-text12">Rutas</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown08 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle09"
+                          >
+                            <span class="home-text13">
+                              <span class="home-text14">Cultura</span>
+                              <br />
+                            </span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown09 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle10"
+                          >
+                            <span class="home-text16">Gastronomía</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown10 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle11"
+                          >
+                            <span class="home-text17">Gastronomía</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown11 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle12"
+                          >
+                            <span class="home-text18">Contacto</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown12 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle13"
+                          >
+                            <span class="home-text19">Quiénes somos</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown13 list-item"
+                        ></li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="home-dropdown14 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="home-dropdown-toggle14"
+                          >
+                            <span class="home-text20">Sub-menu Item</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                   <button class="home-hamburger button">
-                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <svg viewBox="0 0 1024 1024" class="home-icon04">
                       <path
                         d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
                       ></path>
@@ -104,7 +357,7 @@
                         class="home-logo1"
                       />
                       <div data-thq="thq-close-menu" class="home-menu-close">
-                        <svg viewBox="0 0 1024 1024" class="home-icon02">
+                        <svg viewBox="0 0 1024 1024" class="home-icon06">
                           <path
                             d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                           ></path>
@@ -116,11 +369,11 @@
                       data-role="Nav"
                       class="home-nav1"
                     >
-                      <span class="home-text03">About</span>
-                      <span class="home-text04">Features</span>
-                      <span class="home-text05">Pricing</span>
-                      <span class="home-text06">Team</span>
-                      <span class="home-text07">Blog</span>
+                      <span class="home-text21">About</span>
+                      <span class="home-text22">Features</span>
+                      <span class="home-text23">Pricing</span>
+                      <span class="home-text24">Team</span>
+                      <span class="home-text25">Blog</span>
                     </nav>
                     <div class="home-container2">
                       <button class="home-login button">Login</button>
@@ -130,21 +383,21 @@
                   <div class="home-icon-group">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      class="home-icon04"
+                      class="home-icon08"
                     >
                       <path
                         d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
                       ></path></svg
                     ><svg
                       viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon06"
+                      class="home-icon10"
                     >
                       <path
                         d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
                       ></path></svg
                     ><svg
                       viewBox="0 0 602.2582857142856 1024"
-                      class="home-icon08"
+                      class="home-icon12"
                     >
                       <path
                         d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
@@ -155,346 +408,268 @@
               </header>
               <div class="home-center">
                 <div class="home-heading">
-                  <h1 class="home-header">See the world like a local</h1>
-                  <p class="home-caption">
-                    Find a local guide consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt.
-                  </p>
+                  <h1 class="home-header">
+                    Indonesia: Más que un destino, una experiencia.
+                  </h1>
                 </div>
                 <div class="home-border"></div>
               </div>
-            </div>
-          </div>
-          <div id="features" class="home-feaures">
-            <div class="home-content01">
-              <div class="feature-feature">
-                <div class="feature-heading">
-                  <img
-                    alt="image"
-                    src="public/Icons/thumbs-up.svg"
-                    class="feature-icon"
-                  />
-                  <h3 class="feature-header">
-                    <span>Hand Picked Guides</span>
-                  </h3>
-                </div>
-                <p class="feature-description">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </span>
-                </p>
-              </div>
-              <textarea
-                placeholder="placeholder"
-                class="home-textarea textarea"
-              ></textarea>
-              <div class="feature-feature">
-                <div class="feature-heading">
-                  <img
-                    alt="image"
-                    src="public/Icons/headset.svg"
-                    class="feature-icon"
-                  />
-                  <h3 class="feature-header"><span>24/7 Support</span></h3>
-                </div>
-                <p class="feature-description">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </span>
-                </p>
-              </div>
-              <div class="feature-feature">
-                <div class="feature-heading">
-                  <img
-                    alt="image"
-                    src="public/Icons/person.svg"
-                    class="feature-icon"
-                  />
-                  <h3 class="feature-header"><span>Private Tours</span></h3>
-                </div>
-                <p class="feature-description">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </span>
-                </p>
-              </div>
+              <p class="home-caption">
+                Sumérgete en su rica cultura, explora paisajes impresionantes y
+                vive aventuras inolvidables
+              </p>
             </div>
           </div>
         </section>
-        <section id="tours" class="home-quick-view">
-          <div class="home-main1">
-            <div class="home-heading01">
-              <h2 class="home-header01">See the world like a local</h2>
-              <p class="home-caption01">
-                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
+        <section id="tours" class="home-experiencias">
+          <a href="index.html" class="home-navlink">
+            <div class="home-main1">
+              <div class="home-heading01">
+                <h2 class="home-header01">Parte a la aventura con nosotros</h2>
+                <p class="home-caption01">Explora, aprende y saborea.</p>
+              </div>
+              <div class="home-sorting">
+                <button type="submit" class="home-option-primary button">
+                  Todo
+                </button>
+                <button class="button-option button home-option">Rutas</button>
+                <button class="button-option button home-option1">
+                  Cultura
+                </button>
+                <button class="button-option button home-option2">
+                  Gastronomía
+                </button>
+              </div>
             </div>
-            <div class="home-sorting">
-              <button class="home-option-primary button">All</button>
-              <button class="button-option button">Popular</button>
-              <button class="button-option button">Featured</button>
-              <button class="button-option button">Trending</button>
+          </a>
+          <div class="home-rutas">
+            <div class="home-offer-container">
+              <div
+                class="ruta-dieng-plateau-offer ruta-dieng-plateau-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/arjuna-temple-dieng-plateau1-1500w.jpg"
+                  class="ruta-dieng-plateau-image"
+                />
+                <div class="ruta-dieng-plateau-content">
+                  <div class="ruta-dieng-plateau-details">
+                    <span class="ruta-dieng-plateau-text">Dieng-plateau</span>
+                    <span class="ruta-dieng-plateau-text1">
+                      Dieng es una meseta en Java Central, Indonesia. Forma el
+                      piso de un complejo de caldera en el área del volcán
+                      activo de Dieng.
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="home-offers">
-            <a href="index.html">
-              <div class="home-offer-container">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/dieng-plateau-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text"><span>Crete, Greece</span></span>
-                      <span class="offer-text1">
-                        <span>3 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            <div class="home-offer-container1">
+              <div
+                class="ruta-de-la-isla-de-flores-offer ruta-de-la-isla-de-flores-root-class-name2"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/isla%20de%20flores-1500w.jpg"
+                  class="ruta-de-la-isla-de-flores-image"
+                />
+                <div class="ruta-de-la-isla-de-flores-content">
+                  <div class="ruta-de-la-isla-de-flores-details">
+                    <span class="ruta-de-la-isla-de-flores-text">
+                      Isla de Flores
+                    </span>
+                    <span class="ruta-de-la-isla-de-flores-text1">
+                      Isla volcánica. La Isla de Flores es una isla
+                      volcánicamente activa en Indonesia, con al menos 13
+                      volcanes en funcionamiento. Es parte de las Islas Menores
+                      de la Sonda, con una superficie de 13,540 km²
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container1">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/isla%20de%20flores-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text">
-                        <span>Barcelona, Spain</span>
-                      </span>
-                      <span class="offer-text1">
-                        <span>54 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container2">
+              <div
+                class="ruta-de-los-dioses-offer ruta-de-los-dioses-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/ruta%20de%20los%20dioses%20indonesia-1500w.jpg"
+                  class="ruta-de-los-dioses-image"
+                />
+                <div class="ruta-de-los-dioses-content">
+                  <div class="ruta-de-los-dioses-details">
+                    <span class="ruta-de-los-dioses-text">
+                      Ruta de los dioses indonesia
+                    </span>
+                    <span class="ruta-de-los-dioses-text1">
+                      Ruta espiritual. La “Ruta de los Dioses” es un recorrido
+                      que atraviesa varios lugares sagrados y naturales en Bali,
+                      Indonesia. Esta ruta ofrece una inmersión en la naturaleza
+                      exuberante, pasando por templos, arrozales, volcanes
+                      activos y lagos volcánicos
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container2">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/ruta%20de%20los%20dioses-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text">
-                        <span>Machu Picchu, Peru</span>
-                      </span>
-                      <span class="offer-text1">
-                        <span>34 Local Guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container3">
+              <div class="ruta-sulawesi-offer ruta-sulawesi-root-class-name">
+                <img
+                  alt="image"
+                  src="public/Rutas/sulawesi-1500w.jpg"
+                  class="ruta-sulawesi-image"
+                />
+                <div class="ruta-sulawesi-content">
+                  <div class="ruta-sulawesi-details">
+                    <span class="ruta-sulawesi-text">Sulawesi</span>
+                    <span class="ruta-sulawesi-text1">
+                      Sulawesi, también conocida como Célebes, es una de las
+                      islas más grandes de Indonesia, conocida por su diversidad
+                      cultural y natural. Alberga una población de alrededor de
+                      12 millones de personas
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container3">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/sulawesi-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text"><span>Doha, Quatar</span></span>
-                      <span class="offer-text1">
-                        <span>1 Local guide</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container4">
+              <div class="ruta-ubud-offer ruta-ubud-root-class-name">
+                <img
+                  alt="image"
+                  src="public/Rutas/ubud-1500w.jpg"
+                  class="ruta-ubud-image"
+                />
+                <div class="ruta-ubud-content">
+                  <div class="ruta-ubud-details">
+                    <span class="ruta-ubud-text">Ubud</span>
+                    <span class="ruta-ubud-text1">
+                      Centro cultural. Ubud es un pueblo en la isla de Bali,
+                      Indonesia, conocido como uno de los principales centros
+                      artísticos y culturales de Bali, con una población de
+                      aproximadamente 74,320 personas y una constante pero
+                      fluctuante población de turistas.
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container4">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/ubud-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text">
-                        <span>Rhodes, Greece</span>
-                      </span>
-                      <span class="offer-text1">
-                        <span>6 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container5">
+              <div
+                class="ruta-yogyakarta-offer ruta-yogyakarta-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/yogyakarta-1500w.jpg"
+                  class="ruta-yogyakarta-image"
+                />
+                <div class="ruta-yogyakarta-content">
+                  <div class="ruta-yogyakarta-details">
+                    <span class="ruta-yogyakarta-text">Yogyakarta</span>
+                    <span class="ruta-yogyakarta-text1">
+                      Yogyakarta es la capital de la Región Especial de
+                      Yogyakarta en la isla de Java, Indonesia. Es un importante
+                      centro de bellas artes y cultura clásicas de Java, y
+                      alberga una gran población estudiantil y decenas de
+                      escuelas y universidades1
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container5">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Destinations/yogyakarta-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text"><span>New York, USA</span></span>
-                      <span class="offer-text1">
-                        <span>132 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container6">
+              <div
+                class="ruta-islas-gili-offer ruta-islas-gili-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/islas-gili-indonesia-1500w.jpg"
+                  class="ruta-islas-gili-image"
+                />
+                <div class="ruta-islas-gili-content">
+                  <div class="ruta-islas-gili-details">
+                    <span class="ruta-islas-gili-text">Las Islas Gili</span>
+                    <span class="ruta-islas-gili-text1">
+                      Las Islas Gili son un archipiélago de tres pequeñas islas
+                      - Gili Trawangan, Gili Meno y Gili Air - situadas en la
+                      costa noroeste de Lombok, Indonesia. Son un destino
+                      popular para los turistas que buscan la experiencia de
+                      visitar islas remotas4
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container6">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Platos/bakso-indonesian-meatballs-6-500x500-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text"><span>Doha, Quatar</span></span>
-                      <span class="offer-text1">
-                        <span>1 Local guide</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container7">
+              <div
+                class="ruta-nusa-penida-offer ruta-nusa-penida-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/Rutas/nusa%20penida1-1500w.jpg"
+                  class="ruta-nusa-penida-image"
+                />
+                <div class="ruta-nusa-penida-content">
+                  <div class="ruta-nusa-penida-details">
+                    <span class="ruta-nusa-penida-text">Nusa Penida</span>
+                    <span class="ruta-nusa-penida-text1">
+                      Nusa Penida es una isla al sureste de Bali, Indonesia, con
+                      una superficie de unos 203 km². Es conocida por su belleza
+                      natural intacta. Al noroeste de Nusa Penida hay dos
+                      pequeñas islas, Nusa Lembongan y Nusa Ceningan. La isla
+                      ofrece un escape rural de los resorts desarrollados del
+                      sur de Bali, con lagunas apartadas, calas secretas y
+                      playas menos conocidas.
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container7">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Platos/gado-gado-5-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text">
-                        <span>Rhodes, Greece</span>
-                      </span>
-                      <span class="offer-text1">
-                        <span>6 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
+            </div>
+            <div class="home-offer-container8">
+              <div class="ruta-komodo-offer ruta-komodo-root-class-name">
+                <img
+                  alt="image"
+                  src="public/Rutas/dragon%20de%20komodo-1500w.jpg"
+                  class="ruta-komodo-image"
+                />
+                <div class="ruta-komodo-content">
+                  <div class="ruta-komodo-details">
+                    <span class="ruta-komodo-text">Komodo</span>
+                    <span class="ruta-komodo-text1">
+                      Esta isla es famosa por ser el hogar de los dragones de
+                      Komodo, los lagartos más grandes del mundo. Los dragones
+                      de Komodo salvajes solo se encuentran en las islas menores
+                      de la Sonda indonesias, entre las que se encuentra la isla
+                      de Komodo.
                     </span>
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="index.html">
-              <div class="home-offer-container8">
-                <div class="offer-offer">
-                  <img
-                    alt="image"
-                    src="public/Platos/ikan-panggang-200h.jpg"
-                    class="offer-image"
-                  />
-                  <div class="offer-content">
-                    <div class="offer-details">
-                      <span class="offer-text"><span>New York, USA</span></span>
-                      <span class="offer-text1">
-                        <span>132 Local guides</span>
-                      </span>
-                    </div>
-                    <span class="offer-text2">
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
-                      </span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </a>
+            </div>
           </div>
           <div class="home-pagination">
             <button class="home-previous button-option button">
-              <svg viewBox="0 0 1024 1024" class="home-icon10">
+              <svg viewBox="0 0 1024 1024" class="home-icon14">
                 <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
               </svg>
-              <span class="home-text08">Previous</span>
+              <span class="home-text26">Previous</span>
             </button>
             <div class="home-pages">
               <div class="home-primary">
                 <div class="home-number-current page-current page">
-                  <span class="home-text09">1</span>
+                  <span class="home-text27">1</span>
                 </div>
-                <div class="page"><span class="home-text10">2</span></div>
+                <div class="page"><span class="home-text28">2</span></div>
                 <div class="page home-number1">
-                  <span class="home-text11">3</span>
+                  <span class="home-text29">3</span>
                 </div>
               </div>
               <img alt="image" src="public/Icons/more.svg" class="home-more" />
-              <div class="page"><span class="home-text12">12</span></div>
+              <div class="page"><span class="home-text30">12</span></div>
             </div>
             <button class="home-next button-option button">
-              <span class="home-text13">Next</span>
-              <svg viewBox="0 0 1024 1024" class="home-icon12">
+              <span class="home-text31">Next</span>
+              <svg viewBox="0 0 1024 1024" class="home-icon16">
                 <path
                   d="M426 256l256 256-256 256-60-60 196-196-196-196z"
                 ></path>
@@ -502,49 +677,58 @@
             </button>
           </div>
         </section>
-        <section class="home-testimonials">
-          <div class="home-content02">
+        <section class="home-quienes-somos">
+          <div class="home-content01">
             <div class="home-heading02">
-              <span class="home-title">Customer testimonial</span>
+              <span class="home-title">Quienes somos:</span>
               <p class="home-quote">
-                “We’ve used Traveler to lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.”
+                <span class="home-text32">
+                  Somos una agencia de viajes dedicada a proporcionar una
+                  experiencia completa de Indonesia a nuestros visitantes.
+                  Nuestro objetivo es más que simplemente mostrar los
+                  impresionantes paisajes de Indonesia; buscamos ofrecer una
+                  inmersión cultural completa. A través de nuestra página web,
+                  informamos a los turistas potenciales sobre las numerosas
+                  opciones de excursiones y actividades disponibles en todo el
+                  país. Pero no nos detenemos ahí, también queremos que los
+                  visitantes aprendan sobre la rica cultura de Indonesia y
+                  disfruten de su deliciosa gastronomía. En resumen, nuestra
+                  página web aspira a ser un recurso integral y atractivo para
+                  cualquier persona interesada en viajar a Indonesia.
+                </span>
+                <br class="home-text33" />
+                <span class="home-text34">
+                  ¡Esperamos que elijas Indonesia como tu próximo destino!
+                </span>
               </p>
             </div>
-            <div class="home-details">
-              <div class="home-author">
-                <img
-                  alt="image"
-                  src="public/logo%20redondo%20turilindos-200h.jpg"
-                  class="home-avatar"
-                />
-                <span class="home-name">Michael McDonald</span>
-              </div>
-              <div class="home-controls">
-                <div class="page"><span class="home-text14">&lt;</span></div>
-                <div class="home-next1 page">
-                  <span class="home-text15">&lt;</span>
-                </div>
-              </div>
-            </div>
+          </div>
+          <div id="Quienes somos" class="home-logo2">
+            <img
+              alt="image"
+              src="public/Logo/logo%20redondo%20turilindos-200h.jpg"
+              class="home-avatar"
+            />
+            <span id="Logo" class="home-name">TuriLindos</span>
           </div>
         </section>
-        <section id="how-it-works" class="home-highlights">
-          <div class="home-highlight">
-            <div class="home-content03">
+        <section id="how-it-works" class="home-cultura">
+          <div class="home-espectculos">
+            <div class="home-content02">
               <div class="home-heading03">
                 <h2 class="home-header02">
-                  Excepteur sint occaecat cupidatat non proident
+                  Disfruta de espectáculos ancestrales
                 </h2>
                 <p class="home-caption02">
-                  Lorem ipsum dolor sit consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt.
+                  Según la leyenda, Rangda, la madre de Erlangga, el rey de Bali
+                  en el siglo X, fue condenada por practicar magia negra.
+                  Enfurecida, convocó a todos los espíritus malignos de la
+                  jungla y los demonios para que fueran tras Erlangga.
                 </p>
               </div>
               <button class="button-arrow button">
-                <span class="home-text16">Read more</span>
-                <span class="home-text17">&gt;</span>
+                <span class="home-text35">Leer más</span>
+                <span class="home-text36">&gt;</span>
               </button>
             </div>
             <div class="home-image">
@@ -553,10 +737,9 @@
                 src="public/Cultura/original-1500w.jpg"
                 class="home-image1"
               />
-              <div class="home-rectangle"></div>
             </div>
           </div>
-          <div class="home-highlight1">
+          <div class="home-desfiles">
             <div class="home-image2">
               <img
                 alt="image"
@@ -564,132 +747,102 @@
                 class="home-image3"
               />
             </div>
-            <div class="home-content04">
+            <div class="home-content03">
               <div class="home-heading04">
-                <h2 class="home-header03">
-                  Excepteur sint occaecat cupidatat non proident
-                </h2>
+                <h2 class="home-header03">Espectaculares desfiles</h2>
                 <p class="home-caption03">
-                  <span>
-                    Lorem ipsum dolor sit consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt.
-                  </span>
-                  <br />
-                  <br />
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
-                  </span>
-                  <br />
+                  Indonesia es famosa por sus desfiles, que son un componente
+                  fundamental en diversos ritos de la isla. Uno de los más
+                  vistosos es el desfile de ogoh-ogoh, que tiene lugar el día
+                  anterior al Nyepi, o año nuevo balinés. En este desfile, se
+                  sacan a la calle representaciones diabólicas que acaban siendo
+                  quemadas. Además, también se realizan tours y desfiles de moda
+                  en Indonesia. Estos desfiles y eventos culturales son una
+                  parte integral de la rica tradición y costumbres de Indonesia.
                 </p>
               </div>
-              <button class="home-find button">Find a local guide</button>
             </div>
           </div>
         </section>
-        <section id="destinations" class="home-destinations">
-          <div class="home-video-details">
+        <section id="destinations" class="home-cultura1">
+          <div class="home-baile">
             <div class="home-heading05">
-              <h2 class="home-header04">Spotlight destinations</h2>
-              <p class="home-caption04">
-                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+              <h2 class="home-header04">
+                Donde la aventura se encuentra con la cultura
+              </h2>
+              <p class="home-descripcin-baile">
+                Los bailes indonesios son una hermosa mezcla de elegantes y
+                elaborados movimientos corporales con lujosos trajes y música.
+                Son una parte integral de la cultura indonesia y ofrecen una
+                visión fascinante de la rica historia y tradiciones del país.
               </p>
             </div>
             <div class="home-video-wrapper">
-              <div class="home-tint1">
-                <img
-                  alt="image"
-                  src="public/Icons/play.svg"
-                  class="home-image4"
-                />
-              </div>
+              <div class="home-tint1"></div>
               <video
-                src=""
-                poster="public/Videos/spotlight-cover1-1500w.png"
+                src="public/Videos/balinese%20dancers%20from%20the%20film%20samsara..mp4"
+                loop=""
+                muted=""
+                preload="auto"
+                autoplay=""
+                controls=""
+                playsinline=""
                 class="home-video2"
               ></video>
             </div>
           </div>
-          <p class="home-caption05">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto.
-          </p>
+          <div class="home-descripcin-vdeo">
+            <p class="home-caption04">
+              Cada baile cuenta una historia, ya sea de amor, heroísmo o la
+              simple alegría de vivir. Al ver un baile indonesio, no solo estás
+              viendo una actuación, sino que también estás experimentando un
+              pedazo de la cultura indonesia.
+            </p>
+          </div>
           <div class="home-list">
-            <a href="index.html" class="home-navlink09">
-              <div class="home-location-wrapper">
-                <div class="location-item">
-                  <img
-                    alt="image"
-                    src="public/Cultura/denpasar-bali-island-indonesia-june-23-2016-portrait-of-young-balinese-woman-in-ethnic-dancer-costume-dan-400h.jpg"
-                    class="location-background"
-                  />
-                  <div class="location-content">
-                    <span class="location-location">
-                      <span>Tokyo, Japan</span>
-                    </span>
-                  </div>
-                </div>
+            <div class="home-cultura2">
+              <div class="location-item"></div>
+              <img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                class="home-image4"
+              />
+            </div>
+            <div class="home-cultura3">
+              <div class="location-item"></div>
+              <img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                class="home-image5"
+              />
+            </div>
+            <a href="index.html" class="home-navlink1">
+              <div class="home-cultura4">
+                <div class="location-item"></div>
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image6"
+                />
               </div>
             </a>
-            <a href="index.html" class="home-navlink10">
-              <div class="home-location-wrapper1">
-                <div class="location-item">
-                  <img
-                    alt="image"
-                    src="public/Cultura/32910553-nakhon-si-thammarat-tailandia-22-de-septiembre-manohra-el-10-mes-festival-manohra-es-la-danza-400h.jpg"
-                    class="location-background"
-                  />
-                  <div class="location-content">
-                    <span class="location-location">
-                      <span>Paris, France</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="index.html" class="home-navlink11">
-              <div class="home-location-wrapper2">
-                <div class="location-item">
-                  <img
-                    alt="image"
-                    src="public/Cultura/denpasar-bali-island-indonesia-june-23-2016-portrait-of-young-balinese-woman-in-ethnic-dancer-costume-dan-400h.jpg"
-                    class="location-background"
-                  />
-                  <div class="location-content">
-                    <span class="location-location">
-                      <span>Bruges, Belgium</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="index.html" class="home-navlink12">
-              <div class="home-location-wrapper3">
-                <div class="location-item">
-                  <img
-                    alt="image"
-                    src="public/Cultura/baile%20tradiconal%20indonesia-400h.jpg"
-                    class="location-background"
-                  />
-                  <div class="location-content">
-                    <span class="location-location">
-                      <span>London, UK</span>
-                    </span>
-                  </div>
-                </div>
+            <a href="index.html" class="home-navlink2">
+              <div class="home-cultura5">
+                <div class="location-item"></div>
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image7"
+                />
               </div>
             </a>
           </div>
-          <button class="home-find1 button">Find a local guide</button>
+          <button class="home-find button">Find a local guide</button>
         </section>
         <section id="guides" class="home-guides">
           <div class="home-heading06">
             <h2 class="home-header05">Meet our guides</h2>
-            <p class="home-caption06">
+            <p class="home-caption05">
               Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod
               tempor incididunt.
             </p>
@@ -700,7 +853,7 @@
                 <div class="guide-guide">
                   <img
                     alt="image"
-                    src="public/Guides/guide-1.png"
+                    src="public/Guías/guide-1.png"
                     class="guide-portrait"
                   />
                   <div class="guide-details">
@@ -717,7 +870,7 @@
                 <div class="guide-guide guide-root-class-name2">
                   <img
                     alt="image"
-                    src="public/Guides/guide-2.png"
+                    src="public/Guías/guide-2.png"
                     class="guide-portrait"
                   />
                   <div class="guide-details">
@@ -734,7 +887,7 @@
                 <div class="guide-guide guide-root-class-name">
                   <img
                     alt="image"
-                    src="public/Guides/guide-3.png"
+                    src="public/Guías/guide-3.png"
                     class="guide-portrait"
                   />
                   <div class="guide-details">
@@ -751,7 +904,7 @@
                 <div class="guide-guide guide-root-class-name1">
                   <img
                     alt="image"
-                    src="public/Guides/guide-4.png"
+                    src="public/Guías/guide-4.png"
                     class="guide-portrait"
                   />
                   <div class="guide-details">
@@ -764,30 +917,30 @@
           </div>
         </section>
         <section class="home-articles">
-          <div id="articles" class="home-content05">
+          <div id="articles" class="home-content04">
             <div class="home-heading07">
               <h2 class="home-header06">
                 Excepteur sint occaecat cupidatat non proident
               </h2>
-              <p class="home-caption07">
+              <p class="home-caption06">
                 Lorem ipsum dolor sit consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
             </div>
             <div class="home-list2">
               <div class="home-row">
-                <div class="article-article article-root-class-name1">
+                <div class="artculo-article artculo-root-class-name1">
                   <img
                     alt="image"
                     src="public/Articles/articles-11-1500w.png"
-                    class="article-image"
+                    class="artculo-image"
                   />
-                  <div class="article-content">
-                    <div class="article-heading">
-                      <h2 class="article-header">
+                  <div class="artculo-content">
+                    <div class="artculo-heading">
+                      <h2 class="artculo-header">
                         <span>Understand your customers</span>
                       </h2>
-                      <p class="article-description">
+                      <p class="artculo-description">
                         <span>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -798,23 +951,23 @@
                       </p>
                     </div>
                     <button class="button-arrow button">
-                      <span class="article-text">Read more</span>
-                      <span class="article-text1">&gt;</span>
+                      <span class="artculo-text">Read more</span>
+                      <span class="artculo-text1">&gt;</span>
                     </button>
                   </div>
                 </div>
-                <div class="article-article article-root-class-name">
+                <div class="artculo-article artculo-root-class-name">
                   <img
                     alt="image"
                     src="public/Articles/articles-21-1500w.png"
-                    class="article-image"
+                    class="artculo-image"
                   />
-                  <div class="article-content">
-                    <div class="article-heading">
-                      <h2 class="article-header">
+                  <div class="artculo-content">
+                    <div class="artculo-heading">
+                      <h2 class="artculo-header">
                         <span>Understand your customers</span>
                       </h2>
-                      <p class="article-description">
+                      <p class="artculo-description">
                         <span>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -823,25 +976,25 @@
                       </p>
                     </div>
                     <button class="button-arrow button">
-                      <span class="article-text">Read more</span>
-                      <span class="article-text1">&gt;</span>
+                      <span class="artculo-text">Read more</span>
+                      <span class="artculo-text1">&gt;</span>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="home-row1">
-                <div class="article-article article-root-class-name2">
+                <div class="artculo-article artculo-root-class-name2">
                   <img
                     alt="image"
                     src="public/Articles/articles-31-1500w.png"
-                    class="article-image"
+                    class="artculo-image"
                   />
-                  <div class="article-content">
-                    <div class="article-heading">
-                      <h2 class="article-header">
+                  <div class="artculo-content">
+                    <div class="artculo-heading">
+                      <h2 class="artculo-header">
                         <span>Understand your customers</span>
                       </h2>
-                      <p class="article-description">
+                      <p class="artculo-description">
                         <span>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -852,23 +1005,23 @@
                       </p>
                     </div>
                     <button class="button-arrow button">
-                      <span class="article-text">Read more</span>
-                      <span class="article-text1">&gt;</span>
+                      <span class="artculo-text">Read more</span>
+                      <span class="artculo-text1">&gt;</span>
                     </button>
                   </div>
                 </div>
-                <div class="article-article article-root-class-name3">
+                <div class="artculo-article artculo-root-class-name3">
                   <img
                     alt="image"
                     src="public/Articles/articles-41-1500w.png"
-                    class="article-image"
+                    class="artculo-image"
                   />
-                  <div class="article-content">
-                    <div class="article-heading">
-                      <h2 class="article-header">
+                  <div class="artculo-content">
+                    <div class="artculo-heading">
+                      <h2 class="artculo-header">
                         <span>Understand your customers</span>
                       </h2>
-                      <p class="article-description">
+                      <p class="artculo-description">
                         <span>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -877,8 +1030,8 @@
                       </p>
                     </div>
                     <button class="button-arrow button">
-                      <span class="article-text">Read more</span>
-                      <span class="article-text1">&gt;</span>
+                      <span class="artculo-text">Read more</span>
+                      <span class="artculo-text1">&gt;</span>
                     </button>
                   </div>
                 </div>
@@ -892,10 +1045,10 @@
           </div>
         </section>
         <section class="home-faq">
-          <div id="faqs" class="home-content06">
+          <div id="faqs" class="home-content05">
             <div class="home-heading08">
               <h2 class="home-header07">Frequently asked questions</h2>
-              <p class="home-caption08">
+              <p class="home-caption07">
                 Lorem ipsum dolor sit consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
@@ -905,7 +1058,7 @@
                 data-role="accordion-container"
                 class="accordion home-element"
               >
-                <div class="home-content07">
+                <div class="home-content06">
                   <span class="home-header08">
                     Lorem ipsum dolor sit ametetur elit?
                   </span>
@@ -917,42 +1070,6 @@
                   </span>
                 </div>
                 <div class="home-icon-container">
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon-closed"
-                    class="home-icon14"
-                  >
-                    <path
-                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                    ></path></svg
-                  ><svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon-open"
-                    class="home-icon16"
-                  >
-                    <path
-                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div
-                data-role="accordion-container"
-                class="home-element1 accordion"
-              >
-                <div class="home-content08">
-                  <span class="home-header09">
-                    Excepteur sint occaecat cupidatat non sunt in culpa qui
-                    officia deserunt mollit anim id est laborum?
-                  </span>
-                  <span data-role="accordion-content" class="home-description1">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
-                  </span>
-                </div>
-                <div class="home-icon-container1">
                   <svg
                     viewBox="0 0 1024 1024"
                     data-role="accordion-icon-closed"
@@ -974,21 +1091,21 @@
               </div>
               <div
                 data-role="accordion-container"
-                class="home-element2 accordion"
+                class="home-element1 accordion"
               >
-                <div class="home-content09">
-                  <span class="home-header10">
-                    Tempor incididunt ut labore et dolore magna aliquat enim ad
-                    minim?
+                <div class="home-content07">
+                  <span class="home-header09">
+                    Excepteur sint occaecat cupidatat non sunt in culpa qui
+                    officia deserunt mollit anim id est laborum?
                   </span>
-                  <span data-role="accordion-content" class="home-description2">
+                  <span data-role="accordion-content" class="home-description1">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo.
                   </span>
                 </div>
-                <div class="home-icon-container2">
+                <div class="home-icon-container1">
                   <svg
                     viewBox="0 0 1024 1024"
                     data-role="accordion-icon-closed"
@@ -1010,20 +1127,21 @@
               </div>
               <div
                 data-role="accordion-container"
-                class="home-element3 accordion"
+                class="home-element2 accordion"
               >
-                <div class="home-content10">
-                  <span class="home-header11">
-                    Lorem ipsum dolor sit ametetur elit?
+                <div class="home-content08">
+                  <span class="home-header10">
+                    Tempor incididunt ut labore et dolore magna aliquat enim ad
+                    minim?
                   </span>
-                  <span data-role="accordion-content" class="home-description3">
+                  <span data-role="accordion-content" class="home-description2">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo.
                   </span>
                 </div>
-                <div class="home-icon-container3">
+                <div class="home-icon-container2">
                   <svg
                     viewBox="0 0 1024 1024"
                     data-role="accordion-icon-closed"
@@ -1045,20 +1163,20 @@
               </div>
               <div
                 data-role="accordion-container"
-                class="home-element4 accordion"
+                class="home-element3 accordion"
               >
-                <div class="home-content11">
-                  <span class="home-header12">
-                    Incididunt ut labore et dolore?
+                <div class="home-content09">
+                  <span class="home-header11">
+                    Lorem ipsum dolor sit ametetur elit?
                   </span>
-                  <span data-role="accordion-content" class="home-description4">
+                  <span data-role="accordion-content" class="home-description3">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo.
                   </span>
                 </div>
-                <div class="home-icon-container4">
+                <div class="home-icon-container3">
                   <svg
                     viewBox="0 0 1024 1024"
                     data-role="accordion-icon-closed"
@@ -1078,31 +1196,66 @@
                   </svg>
                 </div>
               </div>
+              <div
+                data-role="accordion-container"
+                class="home-element4 accordion"
+              >
+                <div class="home-content10">
+                  <span class="home-header12">
+                    Incididunt ut labore et dolore?
+                  </span>
+                  <span data-role="accordion-content" class="home-description4">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container4">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon34"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon36"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        <section id="find" class="home-find2">
+        <section id="find" class="home-find1">
           <div class="home-heading09">
             <h2 class="home-header13">Find a local guide now</h2>
-            <p class="home-caption09">
+            <p class="home-caption08">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
           </div>
-          <button class="home-find3 button">Find a local guide</button>
+          <button class="home-find2 button">Find a local guide</button>
         </section>
         <section class="home-footer">
-          <div class="home-content12">
+          <div class="home-content11">
             <div class="home-main2">
               <div class="home-branding">
                 <div class="home-heading10">
                   <img
                     alt="image"
                     src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                    class="home-image5"
+                    class="home-image8"
                   />
-                  <p class="home-caption10">
+                  <p class="home-caption09">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore
                   </p>
@@ -1110,24 +1263,24 @@
               </div>
               <div class="home-links1">
                 <div class="home-items">
-                  <button class="home-link02 button button-clean">
+                  <button class="home-link01 button button-clean">
                     Find a guide
                   </button>
                   <a
                     href="#destinations"
-                    class="home-link03 button button-clean"
+                    class="home-link02 button button-clean"
                   >
                     Find a tour
                   </a>
                   <a
                     href="#destinations"
-                    class="home-link04 button button-clean"
+                    class="home-link03 button button-clean"
                   >
                     Visit a city
                   </a>
                   <a
                     href="#destinations"
-                    class="home-link05 button button-clean"
+                    class="home-link04 button button-clean"
                   >
                     Visit a country
                   </a>
@@ -1135,30 +1288,30 @@
                 <div class="home-items1">
                   <a
                     href="#how-it-works"
-                    class="home-link06 button button-clean"
+                    class="home-link05 button button-clean"
                   >
                     How it works
                   </a>
-                  <button class="home-link07 button button-clean">
+                  <button class="home-link06 button button-clean">
                     Cancelation policy
                   </button>
-                  <button class="home-link08 button button-clean">
+                  <button class="home-link07 button button-clean">
                     Local guides
                   </button>
-                  <button class="home-link09 button button-clean">
+                  <button class="home-link08 button button-clean">
                     Affiliate
                   </button>
                 </div>
                 <div class="home-items2">
-                  <button class="home-link10 button button-clean">
+                  <button class="home-link09 button button-clean">
                     About us
                   </button>
-                  <button class="home-link11 button button-clean">Blog</button>
-                  <button class="home-link12 button button-clean">
+                  <button class="home-link10 button button-clean">Blog</button>
+                  <button class="home-link11 button button-clean">
                     Partners
                   </button>
-                  <button class="home-link13 button button-clean">Faqs</button>
-                  <button class="home-link14 button button-clean">
+                  <button class="home-link12 button button-clean">Faqs</button>
+                  <button class="home-link13 button button-clean">
                     Careers
                   </button>
                 </div>

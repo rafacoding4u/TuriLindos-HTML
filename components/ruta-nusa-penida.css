@@ -1,0 +1,54 @@
+.ruta-nusa-penida-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.ruta-nusa-penida-image {
+  object-fit: cover;
+}
+.ruta-nusa-penida-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.ruta-nusa-penida-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ruta-nusa-penida-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ruta-nusa-penida-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 1600px) {
+  .ruta-nusa-penida-text {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+  .ruta-nusa-penida-text1 {
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+}
+@media(max-width: 991px) {
+  .ruta-nusa-penida-image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+.ruta-yogyakarta-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.ruta-yogyakarta-image {
+  object-fit: cover;
+}
+.ruta-yogyakarta-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.ruta-yogyakarta-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ruta-yogyakarta-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ruta-yogyakarta-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 1600px) {
+  .ruta-yogyakarta-text {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 700;
+  }
+  .ruta-yogyakarta-text1 {
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+}
+@media(max-width: 991px) {
+  .ruta-yogyakarta-image {
+    width: 100%;
+  }
+}

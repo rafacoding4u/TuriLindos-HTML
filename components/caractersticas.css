@@ -1,0 +1,36 @@
+.caractersticas-feature {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.caractersticas-heading {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.caractersticas-icon {
+  height: 22px;
+  object-fit: cover;
+}
+.caractersticas-header {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.caractersticas-description {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Karla;
+  line-height: 27px;
+}
+@media(max-width: 767px) {
+  .caractersticas-feature {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+.ruta-de-la-isla-de-flores-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.ruta-de-la-isla-de-flores-image {
+  object-fit: cover;
+}
+.ruta-de-la-isla-de-flores-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.ruta-de-la-isla-de-flores-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ruta-de-la-isla-de-flores-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ruta-de-la-isla-de-flores-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 1600px) {
+  .ruta-de-la-isla-de-flores-text {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 700;
+  }
+  .ruta-de-la-isla-de-flores-text1 {
+    color: var(--dl-color-gray-black);
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+  .ruta-de-la-isla-de-flores-root-class-name2 {
+    top: 0px;
+    left: 0px;
+    position: static;
+    align-self: stretch;
+  }
+}
+@media(max-width: 991px) {
+  .ruta-de-la-isla-de-flores-image {
+    width: 100%;
+  }
+}

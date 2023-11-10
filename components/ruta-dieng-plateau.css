@@ -1,0 +1,57 @@
+.ruta-dieng-plateau-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.ruta-dieng-plateau-image {
+  object-fit: cover;
+}
+.ruta-dieng-plateau-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.ruta-dieng-plateau-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ruta-dieng-plateau-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ruta-dieng-plateau-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 1600px) {
+  .ruta-dieng-plateau-text {
+    font-size: 20px;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 700;
+  }
+  .ruta-dieng-plateau-text1 {
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+  .ruta-dieng-plateau-root-class-name {
+    align-self: stretch;
+  }
+}
+@media(max-width: 991px) {
+  .ruta-dieng-plateau-image {
+    width: 100%;
+  }
+}
