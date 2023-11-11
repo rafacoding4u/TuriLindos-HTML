@@ -3931,7 +3931,6 @@
     position: relative;
     margin-top: var(--dl-space-space-unit);
     margin-bottom: 0px;
-    background-color: #D9D9D9;
   }
 }
 @media(max-width: 991px) {

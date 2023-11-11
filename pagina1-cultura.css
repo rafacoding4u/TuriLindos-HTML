@@ -31,7 +31,7 @@
   height: var(--dl-size-size-xsmall);
   display: flex;
 }
-.pagina1-cultura-icon2 {
+.pagina1-cultura-icon02 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -51,27 +51,12 @@
   padding-bottom: 160px;
   text-decoration: none;
 }
-.pagina1-cultura-espectculos {
-  gap: 120px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.pagina1-cultura-content {
-  gap: var(--dl-space-space-threeunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 .pagina1-cultura-heading {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
   max-width: 500px;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -84,13 +69,30 @@
   font-weight: 700;
   line-height: 60px;
 }
-.pagina1-cultura-caption {
+.pagina1-cultura-header2 {
   color: rgb(53, 43, 42);
-  font-size: 18px;
-  max-width: 600px;
+  font-size: 60px;
+  font-style: normal;
   text-align: left;
-  font-family: Karla;
-  line-height: 27px;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 60px;
+}
+.pagina1-cultura-espectculos {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pagina1-cultura-content {
+  gap: var(--dl-space-space-threeunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .pagina1-cultura-image1 {
   display: flex;
@@ -140,7 +142,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.pagina1-cultura-header2 {
+.pagina1-cultura-header3 {
   color: rgb(53, 43, 42);
   font-size: 60px;
   font-style: normal;
@@ -149,7 +151,7 @@
   font-weight: 700;
   line-height: 60px;
 }
-.pagina1-cultura-caption1 {
+.pagina1-cultura-caption {
   color: rgb(53, 43, 42);
   font-size: 18px;
   max-width: 600px;
@@ -188,7 +190,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.pagina1-cultura-header3 {
+.pagina1-cultura-header4 {
   color: rgb(53, 43, 42);
   font-size: 60px;
   font-style: normal;
@@ -235,7 +237,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.pagina1-cultura-video {
+.pagina1-cultura-video-baile {
   width: 100%;
 }
 .pagina1-cultura-descripcin-vdeo {
@@ -243,7 +245,7 @@
   align-items: center;
   flex-direction: column;
 }
-.pagina1-cultura-caption2 {
+.pagina1-cultura-caption1 {
   font-size: 24px;
   max-width: 900px;
   text-align: center;
@@ -288,7 +290,48 @@
   width: 200px;
   object-fit: cover;
 }
+.pagina1-cultura-link2 {
+  display: contents;
+}
 .pagina1-cultura-solicita-presupuesto {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+  background-color: #477E5D;
+}
+.pagina1-cultura-heading3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.pagina1-cultura-header5 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 60px;
+}
+.pagina1-cultura-caption2 {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: Karla;
+  line-height: 27px;
+}
+.pagina1-cultura-find {
   font-style: normal;
   transition: 0.3s;
   font-weight: 500;
@@ -300,8 +343,43 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(250, 216, 122);
 }
-.pagina1-cultura-solicita-presupuesto:hover {
+.pagina1-cultura-find:hover {
   opacity: 0.5;
+}
+.pagina1-cultura-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.pagina1-cultura-image8 {
+  height: 2rem;
+  object-fit: cover;
+}
+.pagina1-cultura-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pagina1-cultura-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.pagina1-cultura-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.pagina1-cultura-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
 }
 @media(max-width: 1600px) {
   .pagina1-cultura-container {
@@ -318,12 +396,15 @@
     font-weight: 200;
     line-height: 60px;
   }
-  .pagina1-cultura-caption {
-    color: rgb(53, 43, 42);
-    text-align: justify;
-    font-family: Poppins;
-  }
   .pagina1-cultura-header2 {
+    color: rgb(53, 43, 42);
+    font-size: 60px;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 60px;
+  }
+  .pagina1-cultura-header3 {
     color: rgb(53, 43, 42);
     font-size: 60px;
     font-style: normal;
@@ -331,7 +412,7 @@
     font-weight: 200;
     line-height: 60px;
   }
-  .pagina1-cultura-caption1 {
+  .pagina1-cultura-caption {
     color: rgb(53, 43, 42);
     font-size: 18px;
     text-align: justify;
@@ -341,7 +422,7 @@
   .pagina1-cultura-cultura1 {
     position: relative;
   }
-  .pagina1-cultura-header3 {
+  .pagina1-cultura-header4 {
     color: rgb(53, 43, 42);
     font-size: 60px;
     font-style: inherit;
@@ -354,7 +435,7 @@
     font-size: 20px;
     font-family: Poppins;
   }
-  .pagina1-cultura-caption2 {
+  .pagina1-cultura-caption1 {
     font-size: 20px;
     font-family: Poppins;
     line-height: 36px;
@@ -390,10 +471,111 @@
     position: absolute;
   }
   .pagina1-cultura-solicita-presupuesto {
+    height: 303px;
+  }
+  .pagina1-cultura-header5 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 60px;
+  }
+  .pagina1-cultura-caption2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 27px;
+  }
+  .pagina1-cultura-find {
     font-style: normal;
     font-family: Poppins;
     font-weight: 500;
     background-color: rgb(250, 216, 122);
+  }
+  .pagina1-cultura-footer {
+    align-self: center;
+  }
+  .pagina1-cultura-image8 {
+    width: 65px;
+    height: 65px;
+  }
+  .pagina1-cultura-text {
+    color: rgb(71, 126, 93);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+}
+@media(max-width: 1200px) {
+  .pagina1-cultura-header {
+    height: 169px;
+  }
+  .pagina1-cultura-cultura {
+    height: 2041px;
+  }
+  .pagina1-cultura-heading {
+    top: 17px;
+    left: 61px;
+    width: 683px;
+    position: absolute;
+    padding-right: 0px;
+  }
+  .pagina1-cultura-header1 {
+    color: rgb(53, 43, 42);
+    width: 1059px;
+    font-size: 60px;
+    align-self: flex-start;
+    font-style: inherit;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 60px;
+  }
+  .pagina1-cultura-header2 {
+    color: rgb(53, 43, 42);
+    width: 1059px;
+    font-size: 18px;
+    align-self: center;
+    font-style: inherit;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 30px;
+  }
+  .pagina1-cultura-espectculos {
+    height: 647px;
+  }
+  .pagina1-cultura-cultura1 {
+    height: 2051px;
+  }
+  .pagina1-cultura-list {
+    width: 1022px;
+  }
+  .pagina1-cultura-image5 {
+    top: 102px;
+    left: 69px;
+    width: 469px;
+    height: 318px;
+  }
+  .pagina1-cultura-image6 {
+    top: 492px;
+    left: 21px;
+    width: 509px;
+    height: 305px;
+  }
+  .pagina1-cultura-image7 {
+    top: 0px;
+    left: 119px;
+  }
+  .pagina1-cultura-solicita-presupuesto {
+    height: 317px;
+    position: relative;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: 0px;
   }
 }
 @media(max-width: 991px) {
@@ -413,10 +595,6 @@
     align-items: flex-start;
     flex-direction: column-reverse;
   }
-  .pagina1-cultura-solicita-presupuesto {
-    width: 50%;
-    text-align: center;
-  }
 }
 @media(max-width: 767px) {
   .pagina1-cultura-header {
@@ -433,9 +611,6 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .pagina1-cultura-content {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
   .pagina1-cultura-heading {
     gap: var(--dl-space-space-unit);
   }
@@ -443,8 +618,12 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .pagina1-cultura-caption {
-    font-size: 16px;
+  .pagina1-cultura-header2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .pagina1-cultura-content {
+    gap: var(--dl-space-space-oneandhalfunits);
   }
   .pagina1-cultura-image3 {
     width: 100%;
@@ -456,11 +635,11 @@
   .pagina1-cultura-heading1 {
     gap: var(--dl-space-space-unit);
   }
-  .pagina1-cultura-header2 {
+  .pagina1-cultura-header3 {
     font-size: 32px;
     line-height: 31px;
   }
-  .pagina1-cultura-caption1 {
+  .pagina1-cultura-caption {
     font-size: 16px;
     line-height: 24px;
   }
@@ -472,7 +651,7 @@
   .pagina1-cultura-heading2 {
     gap: var(--dl-space-space-unit);
   }
-  .pagina1-cultura-header3 {
+  .pagina1-cultura-header4 {
     font-size: 32px;
     line-height: 31px;
   }
@@ -480,7 +659,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .pagina1-cultura-caption2 {
+  .pagina1-cultura-caption1 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -493,6 +672,30 @@
   .pagina1-cultura-cultura4 {
     width: 100%;
   }
+  .pagina1-cultura-solicita-presupuesto {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .pagina1-cultura-heading3 {
+    gap: var(--dl-space-space-unit);
+  }
+  .pagina1-cultura-header5 {
+    font-size: 32px;
+    line-height: 31px;
+  }
+  .pagina1-cultura-caption2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .pagina1-cultura-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .pagina1-cultura-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
   .pagina1-cultura-header {
@@ -500,5 +703,17 @@
   }
   .pagina1-cultura-image2 {
     width: 100%;
+  }
+  .pagina1-cultura-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .pagina1-cultura-image8 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .pagina1-cultura-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
