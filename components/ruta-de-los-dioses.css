@@ -36,7 +36,7 @@
     font-size: 20px;
     font-style: normal;
     font-family: Poppins;
-    font-weight: 700;
+    font-weight: 400;
   }
   .ruta-de-los-dioses-text1 {
     font-size: 18px;
@@ -45,6 +45,10 @@
     text-align: justify;
     font-family: Poppins;
     font-weight: 200;
+  }
+  .ruta-de-los-dioses-root-class-name {
+    color: var(--dl-color-gray-black);
+    text-align: justify;
   }
 }
 @media(max-width: 991px) {

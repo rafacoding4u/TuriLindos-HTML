@@ -28,14 +28,17 @@
   font-style: normal;
   font-weight: 500;
 }
-.guide-root-class-name {
-  flex: 0 0 auto;
-}
-.guide-root-class-name1 {
-  flex: 0 0 auto;
-}
-.guide-root-class-name2 {
-  flex: 0 0 auto;
+@media(max-width: 1600px) {
+  .guide-name {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+  .guide-location {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400;
+  }
 }
 @media(max-width: 767px) {
   .guide-guide {

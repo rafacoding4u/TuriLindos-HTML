@@ -36,7 +36,7 @@
     font-size: 20px;
     font-style: normal;
     font-family: Poppins;
-    font-weight: 700;
+    font-weight: 400;
   }
   .ruta-de-la-isla-de-flores-text1 {
     color: var(--dl-color-gray-black);
@@ -47,11 +47,17 @@
     font-family: Poppins;
     font-weight: 200;
   }
+  .ruta-de-la-isla-de-flores-text2 {
+    align-self: stretch;
+    text-align: justify;
+  }
   .ruta-de-la-isla-de-flores-root-class-name2 {
     top: 0px;
     left: 0px;
+    color: var(--dl-color-gray-black);
     position: static;
     align-self: stretch;
+    text-align: justify;
   }
 }
 @media(max-width: 991px) {

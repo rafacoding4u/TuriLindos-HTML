@@ -34,7 +34,9 @@
 @media(max-width: 1600px) {
   .ruta-komodo-text {
     font-size: 20px;
+    font-style: normal;
     font-family: Poppins;
+    font-weight: 400;
   }
   .ruta-komodo-text1 {
     font-size: 18px;

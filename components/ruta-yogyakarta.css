@@ -33,9 +33,10 @@
 
 @media(max-width: 1600px) {
   .ruta-yogyakarta-text {
+    font-size: 20px;
     font-style: normal;
     font-family: Poppins;
-    font-weight: 700;
+    font-weight: 400;
   }
   .ruta-yogyakarta-text1 {
     font-size: 18px;
