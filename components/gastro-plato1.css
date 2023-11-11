@@ -34,6 +34,9 @@
 
 
 
+
+
+
 @media(max-width: 1600px) {
   .gastro-plato1-text {
     font-size: 20px;
@@ -52,6 +55,15 @@
     text-align: justify;
   }
   .gastro-plato1-root-class-name3 {
+    text-align: justify;
+  }
+  .gastro-plato1-root-class-name4 {
+    text-align: justify;
+  }
+  .gastro-plato1-root-class-name5 {
+    text-align: justify;
+  }
+  .gastro-plato1-root-class-name6 {
     text-align: justify;
   }
 }

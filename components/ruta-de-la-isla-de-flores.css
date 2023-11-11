@@ -33,6 +33,9 @@
 
 
 
+
+
+
 @media(max-width: 1600px) {
   .ruta-de-la-isla-de-flores-text {
     font-size: 20px;
@@ -70,6 +73,30 @@
     text-align: justify;
   }
   .ruta-de-la-isla-de-flores-root-class-name2 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-gray-black);
+    position: static;
+    align-self: stretch;
+    text-align: justify;
+  }
+  .ruta-de-la-isla-de-flores-root-class-name3 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-gray-black);
+    position: static;
+    align-self: stretch;
+    text-align: justify;
+  }
+  .ruta-de-la-isla-de-flores-root-class-name4 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-gray-black);
+    position: static;
+    align-self: stretch;
+    text-align: justify;
+  }
+  .ruta-de-la-isla-de-flores-root-class-name5 {
     top: 0px;
     left: 0px;
     color: var(--dl-color-gray-black);
