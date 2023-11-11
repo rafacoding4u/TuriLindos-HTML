@@ -1,0 +1,67 @@
+.gastro-plato3-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.gastro-plato3-image {
+  object-fit: cover;
+}
+.gastro-plato3-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.gastro-plato3-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gastro-plato3-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.gastro-plato3-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+
+@media(max-width: 1600px) {
+  .gastro-plato3-text {
+    font-size: 20px;
+  }
+  .gastro-plato3-text1 {
+    color: var(--dl-color-gray-black);
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+  .gastro-plato3-text2 {
+    align-self: stretch;
+    text-align: justify;
+  }
+}
+@media(max-width: 1200px) {
+  .gastro-plato3-text {
+    font-size: 20px;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+}
+@media(max-width: 991px) {
+  .gastro-plato3-image {
+    width: 100%;
+  }
+}

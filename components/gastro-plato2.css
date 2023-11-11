@@ -1,0 +1,77 @@
+.gastro-plato2-offer {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.gastro-plato2-image {
+  object-fit: cover;
+}
+.gastro-plato2-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  flex-direction: column;
+}
+.gastro-plato2-details {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gastro-plato2-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.gastro-plato2-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+
+@media(max-width: 1600px) {
+  .gastro-plato2-text {
+    font-size: 20px;
+  }
+  .gastro-plato2-text1 {
+    color: var(--dl-color-gray-black);
+    font-size: 18px;
+    align-self: stretch;
+    font-style: normal;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+  .gastro-plato2-text2 {
+    align-self: stretch;
+    text-align: justify;
+  }
+  .gastro-plato2-root-class-name3 {
+    text-align: justify;
+  }
+}
+@media(max-width: 1200px) {
+  .gastro-plato2-text {
+    font-size: 20px;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+  .gastro-plato2-text1 {
+    color: var(--dl-color-gray-black);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 200;
+  }
+}
+@media(max-width: 991px) {
+  .gastro-plato2-image {
+    width: 100%;
+  }
+}
