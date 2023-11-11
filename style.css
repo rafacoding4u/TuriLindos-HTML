@@ -81,7 +81,7 @@
   cursor: pointer;
   font-style: normal;
   transition: 0.3s;
-  font-family: Karla;
+  font-family: auto;
   font-weight: 500;
 }
 .link:hover {
@@ -113,6 +113,7 @@
   display: flex;
   transition: 0.3s;
   align-items: center;
+  font-family: auto;
   padding-top: var(--dl-space-space-unit);
   aspect-ratio: 1;
   border-color: #949AA5;

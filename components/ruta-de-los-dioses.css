@@ -31,6 +31,8 @@
   font-weight: 500;
 }
 
+
+
 @media(max-width: 1600px) {
   .ruta-de-los-dioses-text {
     font-size: 20px;
@@ -47,6 +49,14 @@
     font-weight: 200;
   }
   .ruta-de-los-dioses-root-class-name {
+    color: var(--dl-color-gray-black);
+    text-align: justify;
+  }
+  .ruta-de-los-dioses-root-class-name1 {
+    color: var(--dl-color-gray-black);
+    text-align: justify;
+  }
+  .ruta-de-los-dioses-root-class-name2 {
     color: var(--dl-color-gray-black);
     text-align: justify;
   }
